@@ -96,7 +96,6 @@ public class ViewSistema extends javax.swing.JFrame {
         jCcategoria = new javax.swing.JComboBox<>();
         jLabel12 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
-        jPanel3 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         jTabaConfiguracoes = new javax.swing.JTabbedPane();
         jPanel24 = new javax.swing.JPanel();
@@ -696,19 +695,6 @@ public class ViewSistema extends javax.swing.JFrame {
 
         jTabaPrincipal.addTab("Cadastrar produto", jPanel22);
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 775, Short.MAX_VALUE)
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 657, Short.MAX_VALUE)
-        );
-
-        jTabaPrincipal.addTab("Estou com sorte", jPanel3);
-
         jTabaConfiguracoes.setTabPlacement(javax.swing.JTabbedPane.LEFT);
         jTabaConfiguracoes.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
 
@@ -945,7 +931,6 @@ public class ViewSistema extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel22;
     private javax.swing.JPanel jPanel24;
     private javax.swing.JPanel jPanel29;
-    public javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
